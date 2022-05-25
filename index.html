@@ -44,7 +44,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
           <h1 class="heading">Meet new and interesting pets nearby.</h1>
-          <button type="button" class="btn btn-lg btn-dark dl-btn"><i style="font-size: 1.5rem" class="fa-brands fa-app-store"></i> App Store</button>
+          <button type="button" class="btn btn-lg btn-dark dl-btn"><i style="font-size: 1.5rem;" class="fa-brands fa-app-store-ios"></i> App Store</button>
           <button type="button" class="btn btn-lg btn-outline-light dl-btn"><i class="fa-brands fa-google-play"></i> Play Store</button>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -73,15 +73,44 @@
     </div>
   </section>
   <section id="testimonials">
-    <h2>I no longer feel lonely as I found a whole bunch of besties through this app! Meow.</h2>
-    <img src="./images/dog-img.jpg" alt="Alina-profile-pic">
-    <em>Alina, Greater Sudbury</em>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer feel lonely as I found a whole bunch of besties through this app! Meow.</h2>
+          <img class="profile-img" src="./images/dog-img.jpg" alt="Alina-profile-pic">
+          <em>Alina, Greater Sudbury</em>
+        </div>
+        <div class="carousel-item">
+          <h2>I no longer feel lonely as I found a whole bunch of besties through this app! Meow.</h2>
+          <img class="profile-img" src="./images/emma-img.jpg" alt="Emma-profile-pic">
+          <em>Emma, Toronto</em>
+        </div>
+        <div class="carousel-item">
+          <h2>My sis met her current husband on TinMeow, and now she's expecting a child!</h2>
+          <img class="profile-img" src="./images/jenny-img.jpg" alt="Jenny-profile-pic">
+          <em>Jenny, Ottawa</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </section>
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
   </section>
   <section id="pricing">
     <h2>A Plan for Every Pet's Needs</h2>
