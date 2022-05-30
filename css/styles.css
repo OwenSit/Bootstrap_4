@@ -1,6 +1,8 @@
 .copyright {
+  text-align: center;
   font-size: 0.75rem;
   margin: 5px 0 0 0;
+  padding-top: 20px;
 }
 
 .copyleft-sign{
@@ -117,11 +119,41 @@ p {
   padding: 7% 15%;
 }
 
-#pricing{
+#pricing {
   padding: 100px;
   text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+}
+
+.social_media {
+  color: black;
+  font-weight: bold;
+}
+
+a, a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 1028px) {
+
+ .title-img {
+   position: static;
+   transform: rotate(0);
+ }
+
+ .title {
+   text-align: center;
+ }
+
 }
